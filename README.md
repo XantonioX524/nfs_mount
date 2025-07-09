@@ -1,16 +1,18 @@
-How to use it:
+How to use nfs_mount:
 
 **With IP only (default port)**
-
-`./nfs_mount.sh 10.129.155.148`
+```
+./nfs_mount.sh 10.129.155.148
+```
 
 **With custom IP and port**
-
-`./nfs_mount.sh 10.129.155.148:2049`
-
+```
+./nfs_mount.sh 10.129.155.148:2049
+```
 **Without parameters (it will ask for the IP and optionally the port)**
-
-`./nfs_mount.sh`
+```
+./nfs_mount.sh
+```
 
 Then you can enter: 10.129.155.148 or 10.129.155.148:2049
 
