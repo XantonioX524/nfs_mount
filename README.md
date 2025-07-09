@@ -10,10 +10,13 @@
 
 # Additional Features:
 
-Dependency Check: Checks that showmount, mount, and ping are available
-Auto-Cleanup: Automatically unmounts if anything is already mounted in /tmp/nfs_mount
-Verbose Information: Displays the available space and contents of the mounted directory
-Robust Error Handling: Includes multiple checks and informative messages
+Dependency Checking: Verifies that showmount, mount, and ping are available
+
+Automatic Cleanup: Automatically unmounts if anything is already mounted in /tmp/nfs_mount
+
+Detailed Information: Displays the available space and contents of the mounted directory
+
+Robust Error Handling: Includes multiple checks and informational messages
 
 # How to use nfs_mount:
 
